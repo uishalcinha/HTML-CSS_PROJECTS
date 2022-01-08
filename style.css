@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{ 
+    
+    
+    
+   
+
+}
+.navarea{
+    background: rgba(138, 137, 136, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 27px;
+    position: fixed;
+    width: 100%;
+    
+    
+       
+      
+}
+.logo{color: crimson;
+    font-size: 44px;
+    font-weight: 900;
+}
+.logo span{
+    color: cyan;
+}
+.navarea ul{
+    
+}
+.navarea ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 12px;
+    
+}
+.navarea ul li a{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.navarea ul li a:hover{
+    color: darkmagenta;
+    transition: all 0.5s ease;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url('man2.jpg') no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.homearea{
+    
+}
+.home-content{
+    color: white;
+    font-size:30px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    
+    
+}
+.home-content a{
+    background-color: crimson;
+    padding: 7px;
+    border: 1px solid white;
+    display: inline-block;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.text1{font-weight: 600;
+
+}
+.text2{
+    font-size: 67px;
+    font-weight: 900;
+    color: red;
+}
+.text3{font-weight: 600;
+
+}
