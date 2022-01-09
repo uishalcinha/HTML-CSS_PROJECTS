@@ -36,7 +36,7 @@ nav a:hover{
 
 
 .banner{
-    background-image: url("../img/Vanilla.gif");
+    background-image: url("Vanilla.gif");
     height:120px;
     min-height: 50px;
     background-repeat:no-repeat;
