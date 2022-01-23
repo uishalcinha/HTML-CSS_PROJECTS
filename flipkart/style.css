@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color: #d9d9d9;
+}
+section{
+    background-color: royalblue;
+  
+    
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    
+
+}
+
+.logo img{
+    width: 87px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    
+   
+    display: flex;
+    
+  
+  
+ 
+   
+    
+    
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px;
+    margin: 8px;
+}
+.nav-items ul li a:hover{
+    color: #9fb3fc;
+}
+.search{
+    
+    display: flex;
+    align-items: center;
+}
+
+.sbox{
+    margin: 0px 16px 0 56px;
+    width: 30vw;
+    border-radius: 5px;
+    height: 27px;
+    padding: 0 11px;
+}
+.btn{
+    padding: 6px 9px;
+    color: white;
+    background-color: royalblue;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.btn:hover{
+    background-color:#9fb3fc;
+    font-size:15px;
+    
+}
+.container{
+    
+    
+    margin: 8px;
+  
+  
+   
+}
+.slider{
+   
+   width: 73vw;
+    margin: 12px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    overflow: hidden;
+    height: 82vh;
+    
+}
+
+.card{
+background-color:white;
+   max-width: 70vw;
+   margin: 15px auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   overflow: hidden;
+  
+   
+
+  
+}
+.items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+      margin: 6px 13px;
+    cursor: pointer;
+    
+}
+.disc{
+    display: inline-flex;
+   
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
+   
+    
+    
+}
+h3{
+    margin: 10px 7px;
+    font-size: 20px;
+}
+
+
+.foot{
+    background-color: royalblue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: white;
+    font-weight: 900;
+    
+}
+
+

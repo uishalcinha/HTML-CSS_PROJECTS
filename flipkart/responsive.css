@@ -1,0 +1,29 @@
+@media screen and (max-width:1347px) {
+    body{
+        background-color: red;
+    }
+
+    nav{
+       
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sbox{
+        margin: 14px 16px 8px 58px;
+
+    }
+    .logo img {
+        
+        margin: 20px;
+    }
+    .slider{
+        height: 23vh;
+       
+    }
+    .card{
+        flex-wrap:nowrap;
+    }
+    
+}
