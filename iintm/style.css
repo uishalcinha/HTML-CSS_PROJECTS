@@ -8,30 +8,15 @@
 }
 
 .containerbox{
-    background: url('iitmbg.jpg');
+    background-image: url('iitmbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 
-nav{
-    background-color: royalblue;
-   
-    
-    
-    font-size: 1.5em;
-}
-.nav1{
-    display: flex; 
-    justify-content: space-between;
-    position:sticky;
-    top: 0;
-   
-    height: 7vh;
-    align-items: center;   
-    
-}
+
+
 
 ul{
     list-style: none;
@@ -42,6 +27,7 @@ ul li a{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    list-style: none;
 }
 ul li a:hover{
    color: chartreuse;
@@ -51,17 +37,21 @@ ul li a:hover{
 }
 
 .nav2{
+    list-style: none;
     display: flex; 
     justify-content: space-between;
-   
-    height: 12vh;
     align-items: center;
+   
+    height: 10vh;
+   
     
     background-color: black;
-    margin: 0;
+    margin-top: 0rem;
     position: fixed;
+    top: 0;
     width: 100%;
-top: 0;
+  
+
    
     font-size: 1.5em;
 
@@ -76,16 +66,12 @@ top: 0;
     
     width:75%;
 }
-.heading{
-    
-    margin: 11rem 3rem;
-    
-   
-}
+
 .content{
-    
+    padding-top: 6rem;
+    padding-left: 1rem;
   
-    margin: 5rem auto;
+    margin: 0;
     color: white;
     
    
@@ -286,4 +272,21 @@ footer{
     color: black;
     text-decoration: none;
   
+}
+
+@media screen and (max-width:1228px) {
+    
+    .nav2{
+       
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
