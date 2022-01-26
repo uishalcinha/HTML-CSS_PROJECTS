@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Padauk&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Mochiy+Pop+P+One&family=Padauk&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.containerbox{
+    background: url('iitmbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+nav{
+    background-color: royalblue;
+   
+    
+    
+    font-size: 1.5em;
+}
+.nav1{
+    display: flex; 
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+   
+    height: 7vh;
+    align-items: center;   
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    padding:  0 2rem 0 0.5rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+ul li a:hover{
+   color: chartreuse;
+   font-weight: 900;
+  
+   
+}
+
+.nav2{
+    display: flex; 
+    justify-content: space-between;
+   
+    height: 12vh;
+    align-items: center;
+    
+    background-color: black;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+top: 0;
+   
+    font-size: 1.5em;
+
+    
+    
+}
+.box-3{
+    margin: 1rem;
+}
+
+.logo{
+    
+    width:75%;
+}
+.heading{
+    
+    margin: 11rem 3rem;
+    
+   
+}
+.content{
+    
+  
+    margin: 5rem auto;
+    color: white;
+    
+   
+    
+   
+}
+.content h2{
+    font-size: 1.5rem;
+}
+.content h1{
+    font-size: 6rem;
+    margin: 2rem auto;
+    color: rgb(0, 255, 234);
+}
+.content h1 .line{
+    color: rgb(60, 255, 0);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 6em;
+    
+    
+
+}
+.menu1{
+    
+    width: 40%;
+    height: 33vh;
+    text-align: justify;
+    font-weight: 900;
+    padding: 3em 1em;
+    font-size: 2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+.menu2{
+    text-align: justify;
+    width: 20%;
+    background-color:#2f3d6e;
+    padding: 1em;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+.menu3{
+
+    text-align: justify;
+    width: 20%;
+    background-color: #2f3d6e;
+    padding: 1em;
+    font-family:'Mochiy Pop P One', sans-serif;
+   
+}
+
+.menu2 h2{
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+.menu2 input{
+    padding: 1rem;
+    color: white;
+    background-color: #65719c;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 5rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.menu3 input{
+    padding: 1rem;
+    color: white;
+    background-color: #65719c;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 5rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.menu3 input:hover{
+    background-color: royalblue;
+    
+}
+.menu2 input:hover{
+    background-color: royalblue;
+    
+}
+.menu3 h2{
+    margin-bottom: 2em;
+    text-align: center;
+}
+main{
+    background-color: #b7b6b880;
+}
+
+.write-container{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+ 
+}
+.write1{
+    
+    width: 20%;
+    height: 50vh;
+    background-color:rgba(240, 89, 124,0.6);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 5px;
+}
+.iitmlogo img{
+    width: 30%;
+    border-radius: 50px;
+
+}
+.write1 input{
+    padding: 1rem;
+    color: white;
+    background-color: #65719c;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 5rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+.write3{
+
+    width: 35%;
+    height: 40vh;
+    background-color: #ae41bd9f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 5px;
+    margin-top: 2em;
+   
+}
+.write3 input{
+    padding: 2rem;
+    color: white;
+    background-color:#bd5bc9;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 5rem;
+    border: 4px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.campustour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+ display: flex;
+ margin: 1em;
+   
+}
+
+.img1{
+    
+    
+    
+   width: 40%;
+}  
+.img2{
+    width: 40%;
+} 
+.img3{
+    width: 40%;
+} 
+
+footer{
+    background-color: royalblue;
+    color: white;
+    width: 100%;
+    
+    display: flex;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myfooter a{
+    
+    color: black;
+    text-decoration: none;
+  
+}
