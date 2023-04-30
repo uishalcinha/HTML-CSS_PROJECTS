@@ -14,7 +14,7 @@ This is a responsive onepager website built using HTML and CSS. It is a practice
   - Team section with team member profiles
   - Contact section with a contact form and Google Maps integration
 ![l4](https://user-images.githubusercontent.com/84958938/235343106-c73f5f63-edca-4a82-b0b6-9cc723945166.png)
-![l5](https://user-images.githubusercontent.com/84958938/235343110-a8eebda4-e797-4196-92bc-f41f46a750ff.png)
+                                                     ![l5](https://user-images.githubusercontent.com/84958938/235343110-a8eebda4-e797-4196-92bc-f41f46a750ff.png)
 ![i2](https://user-images.githubusercontent.com/84958938/235343114-e2734531-c22b-42ab-a7bb-53251eab331c.png)
 ![l1](https://user-images.githubusercontent.com/84958938/235343117-40ce026f-e6bd-4e4e-be4a-a2751d1c8b59.png)
 ![l2](https://user-images.githubusercontent.com/84958938/235343119-95baf651-f331-4621-91e8-320dab61f52d.png)
